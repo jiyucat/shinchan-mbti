@@ -1,0 +1,17 @@
+{
+  "TSEP": {
+    "name": "짱구1",
+    "description": "논리적이고 분석적인 성격의 짱구.",
+    "image": "https://example.com/shinchan1.png"
+  },
+  "TSIP": {
+    "name": "짱구2",
+    "description": "감각적이고 창의적인 성격의 짱구.",
+    "image": "https://example.com/shinchan2.png"
+  },
+  "FSIP": {
+    "name": "짱구3",
+    "description": "따뜻하고 사교적인 성격의 짱구.",
+    "image": "https://example.com/shinchan3.png"
+  }
+}
