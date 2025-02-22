@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shinchan-mbti/static/css/main.cedc2a68.css",
+    "main.js": "/shinchan-mbti/static/js/main.294e370b.js",
+    "index.html": "/shinchan-mbti/index.html",
+    "main.cedc2a68.css.map": "/shinchan-mbti/static/css/main.cedc2a68.css.map",
+    "main.294e370b.js.map": "/shinchan-mbti/static/js/main.294e370b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cedc2a68.css",
+    "static/js/main.294e370b.js"
+  ]
+}
