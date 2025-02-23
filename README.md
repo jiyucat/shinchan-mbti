@@ -4,6 +4,9 @@
 
 ## Status
 In Progress : 아직 완성되지 않은 상태입니다.
+- WebPage Link : https://jiyucat.github.io/shinchan-mbti/
+- screenshot : ![image](https://github.com/user-attachments/assets/be92ec0e-5a7a-4678-b035-8141a8f79fdf)
+
 
 ## 기능
 
