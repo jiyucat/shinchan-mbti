@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# 짱구 MBTI 테스트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 프로젝트는 사용자의 MBTI 유형을 평가하고, 평가 결과에 따라 짱구 캐릭터를 매칭해주는 간단한 React 애플리케이션입니다. 12개의 질문을 통해 MBTI의 네 가지 척도(T/F, S/N, E/I, P/J)를 평가하며, 결과에 따라 맞춤형 짱구 캐릭터 정보를 보여줍니다.
 
-## Available Scripts
+## Status
+In Progress : 아직 완성되지 않은 상태입니다.
 
-In the project directory, you can run:
+## 기능
 
-### `npm start`
+- **12개 질문**: 4개 그룹(T/F, S/N, E/I, P/J)으로 구성된 질문 진행
+- **자동 진행**: 사용자가 옵션을 클릭하면 바로 다음 질문으로 넘어감
+- **진행률 표시**: 진행률 바에 현재 진행 상황(예: 0/12, 1/12 등)을 표시
+- **결과 계산 및 매칭**: 각 그룹별 점수를 집계해 MBTI 결과를 도출하고, 그에 맞는 짱구 캐릭터 정보를 보여줌
+- **(선택 사항) SNS 공유**: 결과를 SNS로 공유할 수 있는 기능 제공
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 프로젝트 구조
+/src 
+├── components 
+│ ├── Question.js // 질문 UI 컴포넌트 
+│ ├── ProgressBar.js // 진행률 바 컴포넌트 
+│ ├── Result.js // 결과 페이지 컴포넌트 
+│ ├── Share.js // SNS 공유 버튼 컴포넌트 
+│ └── CharacterInfo.js // 매칭된 캐릭터 정보 컴포넌트 
+├── data 
+│ ├── questions.json // 질문 리스트 데이터 
+│ ├── characters.json // MBTI별 캐릭터 매핑 데이터 
+├── App.js // 메인 애플리케이션 파일 
+├── index.js // React DOM 렌더링 진입점 
+└── styles.css // 전체 스타일링
