@@ -27,8 +27,8 @@ function App() {
   };
 
   const calculateResult = (finalAnswers) => {
-    // 그룹별 점수 집계 (예: TF, SN, EI, PJ)
-    const groups = { TF: { T: 0, F: 0 }, SN: { S: 0, N: 0 }, EI: { E: 0, I: 0 }, PJ: { P: 0, J: 0 } };
+    // 그룹별 점수 집계
+    const groups = { EI: { E: 0, I: 0 }, SN: { S: 0, N: 0 }, TF: { T: 0, F: 0 }, PJ: { P: 0, J: 0 } };
 
     questionsData.forEach(q => {
       const answer = finalAnswers[q.id];
@@ -38,9 +38,9 @@ function App() {
     });
 
     let mbti = '';
-    mbti += groups['TF']['T'] >= groups['TF']['F'] ? 'T' : 'F';
-    mbti += groups['SN']['S'] >= groups['SN']['N'] ? 'S' : 'N';
     mbti += groups['EI']['E'] >= groups['EI']['I'] ? 'E' : 'I';
+    mbti += groups['SN']['S'] >= groups['SN']['N'] ? 'S' : 'N';
+    mbti += groups['TF']['T'] >= groups['TF']['F'] ? 'T' : 'F';
     mbti += groups['PJ']['P'] >= groups['PJ']['J'] ? 'P' : 'J';
 
     // MBTI 결과에 맞는 캐릭터 정보 가져오기
