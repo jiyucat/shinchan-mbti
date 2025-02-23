@@ -14,4 +14,19 @@ In Progress : 아직 완성되지 않은 상태입니다.
 - **(선택 사항) SNS 공유**: 결과를 SNS로 공유할 수 있는 기능 제공
 
 ## 프로젝트 구조
-/src ├── components │ ├── Question.js // 질문 UI 컴포넌트 │ ├── ProgressBar.js // 진행률 바 컴포넌트 │ ├── Result.js // 결과 페이지 컴포넌트 │ ├── Share.js // SNS 공유 버튼 컴포넌트 │ ├── CharacterInfo.js // 매칭된 캐릭터 정보 컴포넌트 ├── data │ ├── questions.json // 질문 리스트 데이터 │ ├── characters.json // MBTI별 캐릭터 매핑 데이터 ├── App.js // 메인 애플리케이션 파일 ├── index.js // React DOM 렌더링 진입점 ├── styles.css // 전체 스타일링
+<h3>프로젝트 구조</h3>
+<pre>
+/src
+├── components
+│   ├── Question.js       // 질문 UI 컴포넌트
+│   ├── ProgressBar.js    // 진행률 바 컴포넌트
+│   ├── Result.js         // 결과 페이지 컴포넌트
+│   ├── Share.js          // SNS 공유 버튼 컴포넌트
+│   ├── CharacterInfo.js  // 매칭된 캐릭터 정보 컴포넌트
+├── data
+│   ├── questions.json    // 질문 리스트 데이터
+│   ├── characters.json   // MBTI별 캐릭터 매핑 데이터
+├── App.js                // 메인 애플리케이션 파일
+├── index.js              // React DOM 렌더링 진입점
+├── styles.css            // 전체 스타일링
+</pre>
