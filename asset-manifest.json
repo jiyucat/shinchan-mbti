@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/shinchan-mbti/static/css/main.cedc2a68.css",
-    "main.js": "/shinchan-mbti/static/js/main.294e370b.js",
+    "main.js": "/shinchan-mbti/static/js/main.4e025ec9.js",
     "index.html": "/shinchan-mbti/index.html",
     "main.cedc2a68.css.map": "/shinchan-mbti/static/css/main.cedc2a68.css.map",
-    "main.294e370b.js.map": "/shinchan-mbti/static/js/main.294e370b.js.map"
+    "main.4e025ec9.js.map": "/shinchan-mbti/static/js/main.4e025ec9.js.map"
   },
   "entrypoints": [
     "static/css/main.cedc2a68.css",
-    "static/js/main.294e370b.js"
+    "static/js/main.4e025ec9.js"
   ]
 }
